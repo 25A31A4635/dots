@@ -1,0 +1,214 @@
+@import url('libadwaita.css');
+@import url('libadwaita-tweaks.css');
+
+@import url("noctalia.css");
+
+
+
+/* ==========================================================
+   TOTAL SQUARE MODE — GTK4
+   AGGRESSIVE SHARP-CORNER OVERRIDE
+   ========================================================== */
+
+/* All GTK CSS nodes */
+*,
+*:before,
+*:after {
+    border-radius: 0;
+}
+
+/* Main application surfaces */
+window,
+dialog,
+popover,
+.background,
+.view,
+frame,
+box,
+grid,
+scrolledwindow,
+viewport,
+stack,
+overlay,
+revealer,
+notebook,
+paned,
+separator,
+listview,
+gridview,
+columnview,
+listitem,
+row,
+.navigation-sidebar,
+.sidebar-pane,
+toolbar,
+headerbar,
+.titlebar,
+actionbar,
+menubar,
+statuspage,
+infobar {
+    border-radius: 0;
+}
+
+/* Buttons */
+button,
+button.flat,
+button.pill,
+button.circular,
+.toggle,
+togglebutton,
+menubutton,
+splitbutton,
+linkbutton,
+colorbutton,
+fontbutton,
+.model,
+modelbutton {
+    border-radius: 0;
+}
+
+/* Text inputs */
+entry,
+text,
+textview,
+textview text,
+searchentry,
+passwordentry,
+spinbutton,
+combobox,
+dropdown,
+editablelabel,
+label selection {
+    border-radius: 0;
+}
+
+/* Checkboxes and radio controls */
+checkbutton,
+radiobutton,
+check,
+radio,
+checkbutton check,
+radiobutton radio {
+    border-radius: 0;
+}
+
+/* Switches */
+switch,
+switch slider {
+    border-radius: 0;
+}
+
+/* Menus, popovers, tooltips */
+popover,
+popover contents,
+popover arrow,
+tooltip,
+tooltip.background,
+menu,
+.menu,
+.menuitem,
+.menuitem:hover,
+.popup,
+dropdown popover,
+combobox popover {
+    border-radius: 0;
+}
+
+/* Sliders, progress bars and level indicators */
+scale,
+scale trough,
+scale highlight,
+scale fill,
+scale slider,
+progressbar,
+progressbar trough,
+progressbar progress,
+levelbar,
+levelbar trough,
+levelbar block,
+.circular-progress {
+    border-radius: 0;
+}
+
+/* Scrollbars */
+scrollbar,
+scrollbar trough,
+scrollbar slider,
+scrollbar button {
+    border-radius: 0;
+}
+
+/* Tabs and tab controls */
+tab,
+notebook tab,
+notebook header,
+notebook stack,
+tabbar,
+tabbar tab,
+tabs,
+tabview,
+tabview tab {
+    border-radius: 0;
+}
+
+/* Calendar and date controls */
+calendar,
+calendar header,
+calendar grid,
+calendar day,
+calendar button,
+monthyear {
+    border-radius: 0;
+}
+
+/* Common GNOME/libadwaita classes */
+.card,
+.boxed-list,
+.boxed-list > row,
+.navigation-sidebar row,
+.preferences-group,
+.preferences-page,
+.dialog-vbox,
+.view,
+.app-notification,
+.osd,
+.badge,
+.pill,
+.circular,
+.rounded,
+.large-title,
+toolbarview,
+windowhandle {
+    border-radius: 0;
+}
+
+/* Focus indicators */
+*:focus,
+*:focus-visible,
+*:focus-within {
+    border-radius: 0;
+}
+
+/* Explicitly square every corner */
+button,
+entry,
+popover,
+tooltip,
+headerbar,
+.titlebar,
+.card,
+switch,
+scale slider,
+scrollbar slider,
+progressbar trough,
+progressbar progress,
+check,
+radio {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+

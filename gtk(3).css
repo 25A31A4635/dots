@@ -1,0 +1,155 @@
+@import url("noctalia.css");
+
+/* ==========================================================
+   TOTAL SQUARE MODE — GTK3
+   ZERO RADIUS. SHARP EDGES. NO ROUNDED WIDGETS.
+   ========================================================== */
+
+/* Universal override */
+*,
+*:before,
+*:after {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* GTK widgets */
+window,
+dialog,
+messagedialog,
+assistant,
+box,
+grid,
+frame,
+aspectframe,
+eventbox,
+viewport,
+scrolledwindow,
+notebook,
+stack,
+paned,
+overlay,
+revealer,
+popover,
+tooltip,
+menu,
+.menu,
+.menuitem,
+.menuitem:hover,
+menubar,
+toolbar,
+statusbar,
+headerbar,
+.titlebar,
+actionbar,
+.sidebar,
+list,
+row,
+listbox,
+listboxrow,
+flowbox,
+flowboxchild {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Buttons and toggles */
+button,
+button.flat,
+button.circular,
+togglebutton,
+checkbutton,
+radiobutton,
+modelbutton,
+linkbutton,
+colorbutton,
+fontbutton,
+spinbutton,
+switch,
+switch slider {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Inputs */
+entry,
+textview,
+textview text,
+searchentry,
+combobox,
+combobox button,
+combobox entry,
+spinbutton entry,
+editablelabel,
+cellview {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Selection and dropdowns */
+selection,
+highlight,
+treeview,
+treeview.view,
+treeview header,
+treeview header button,
+calendar,
+calendar button,
+calendar header {
+    border-radius: 0;
+}
+
+/* Progress and scrolling */
+progressbar,
+progressbar trough,
+progressbar progress,
+scale,
+scale trough,
+scale highlight,
+scale slider,
+scrollbar,
+scrollbar slider,
+scrollbar trough,
+scrollbar button,
+levelbar,
+levelbar trough,
+levelbar block {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Remove circular appearance from icons inside circular buttons */
+button.circular image,
+button.circular label {
+    border-radius: 0;
+}
+
+/* Focus outlines */
+*:focus,
+*:focus-visible {
+    border-radius: 0;
+    -gtk-outline-radius: 0;
+}
+
+/* Force square borders on common components */
+frame,
+entry,
+button,
+combobox,
+spinbutton,
+notebook,
+popover,
+menu,
+tooltip,
+headerbar,
+.titlebar,
+progressbar trough,
+scale trough,
+scrollbar slider {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
