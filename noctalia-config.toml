@@ -1,0 +1,244 @@
+[audio]
+enable_notification_sounds = false
+enable_screenshot_sounds = false
+
+[bar.default]
+capsule_radius = 0
+center = [ "workspaces" ]
+end = [ "tray", "notifications", "clipboard", "network", "bluetooth", "volume", "brightness", "battery" ]
+hover_highlight = false
+margin_edge = 8
+margin_ends = 8
+radius = 0
+start = [ "control-center", "launcher", "clock", "date", "media" ]
+widget_spacing = 8
+
+[battery]
+warning_threshold = 25
+
+    [battery.device."/org/freedesktop/UPower/devices/battery_hidpp_battery_0"]
+    warning_threshold = 10
+
+[control_center]
+circular_avatar = false
+show_shortcut_labels = false
+
+[dock]
+auto_hide = true
+border = "primary"
+border_width = 2.0
+enabled = true
+margin_edge = 8
+radius = 0
+reserve_space = false
+shadow = false
+
+[location]
+address = "Kakinada, India"
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [
+    "lockscreen-login-box@eDP-1",
+    "lockscreen-widget-0000000000000001",
+    "lockscreen-widget-0000000000000002",
+    "lockscreen-widget-0000000000000003",
+    "lockscreen-widget-0000000000000004",
+    "lockscreen-widget-0000000000000005"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 82.0
+    box_width = 720.0
+    cx = 768.0
+    cy = 480.0
+    output = "eDP-1"
+    placement_height = 960.0
+    placement_width = 1536.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 0.0
+        center_password_text = true
+        input_opacity = 1.0
+        input_radius = 0.0
+        layout = "regular"
+        show_caps_lock = false
+        show_keyboard_layout = false
+        show_login_button = false
+        show_media = false
+        show_password_reveal = false
+        show_session_buttons = false
+        show_unlock_hint = false
+        show_weather = false
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
+    box_height = 112.0
+    box_width = 256.0
+    cx = 1000.0
+    cy = 368.0
+    output = "eDP-1"
+    placement_height = 960.0
+    placement_width = 1536.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000001.settings]
+        background_padding = 7
+        background_radius = 0
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000002]
+    box_height = 112.0
+    box_width = 256.0
+    cx = 536.0
+    cy = 368.0
+    output = "eDP-1"
+    placement_height = 960.0
+    placement_width = 1536.0
+    rotation = 0.0
+    type = "weather"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000002.settings]
+        background_padding = 8
+        background_radius = 0
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000003]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 768.0
+    cy = 320.0
+    output = "eDP-1"
+    placement_height = 960.0
+    placement_width = 1536.0
+    rotation = 0.0
+    type = "sticker"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000003.settings]
+        background_padding = 8
+        background_radius = 0
+        image_path = "/home/abhi/Pictures/reze.jpeg"
+        opacity = 1.0
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000004]
+    box_height = 144.0
+    box_width = 336.0
+    cx = 576.0
+    cy = 608.0
+    output = "eDP-1"
+    placement_height = 960.0
+    placement_width = 1536.0
+    rotation = 0.0
+    type = "media_player"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000004.settings]
+        background_padding = 8
+        background_radius = 0
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000005]
+    box_height = 144.0
+    box_width = 336.0
+    cx = 960.0
+    cy = 608.0
+    output = "eDP-1"
+    placement_height = 960.0
+    placement_width = 1536.0
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000005.settings]
+        background_padding = 8
+        background_radius = 0
+        bands = 32
+        show_when_idle = true
+
+[notification]
+border_color = "primary"
+border_width = 2.0
+offset_x = 8
+
+[osd]
+border_color = "primary"
+border_width = 2.0
+offset_x = 8
+position = "top_left"
+
+[shell]
+avatar_path = "/home/abhi/Pictures/reze.jpeg"
+clipboard_image_action_command = "satty --filename -"
+corner_radius_scale = 0.0
+font_family = "Iosevka Nerd Font Mono"
+password_style = "random"
+polkit_agent = true
+
+    [shell.launcher]
+    categories = false
+    layout = "simple"
+    show_icons = false
+
+    [shell.panel]
+    clipboard_placement = "attached"
+    polkit_placement = "attached"
+    wallpaper_position = "center"
+
+    [shell.screenshot]
+    confirm_region = true
+    remember_last_region = true
+    save_to_file = false
+    show_cursor = true
+
+    [shell.shadow]
+    direction = "center"
+
+[theme]
+builtin = "Catppuccin"
+community_palette = "Zenbones"
+source = "wallpaper"
+wallpaper_scheme = "faithful"
+
+    [theme.templates]
+    builtin_ids = [ "alacritty", "btop", "cava", "gtk3", "gtk4", "helix", "kcolorscheme", "kitty", "qt", "umbriel" ]
+    community_ids = [
+        "discord",
+        "zapfast",
+        "lazyvim",
+        "libreoffice",
+        "heroiclauncher",
+        "fastfetch",
+        "obs",
+        "zathura",
+        "bat",
+        "fzf",
+        "lazygit",
+        "yazi"
+    ]
+
+[wallpaper]
+directory = "/home/abhi/Pictures/cozypixels/Anime Wallpapers/Wallpapers"
+transition_on_startup = true
+
+    [wallpaper.default]
+    path = "/home/abhi/Pictures/cozypixels/Anime Wallpapers/Wallpapers/bg068.png"
+
+    [wallpaper.last]
+    path = "/home/abhi/Pictures/cozypixels/Anime Wallpapers/Wallpapers/bg068.png"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/abhi/Pictures/cozypixels/Anime Wallpapers/Wallpapers/bg068.png"
+
+[widget.control-center]
+glyph = "number-6"
+
+[widget.launcher]
+glyph = "number-7"
+
+[widget.tray]
+drawer = true
