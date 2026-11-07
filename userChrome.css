@@ -1,0 +1,73 @@
+/* =================================
+   ZEN BROWSER - FULL SQUARE UI
+   ================================= */
+
+/* Remove border radius from everything */
+*,
+*::before,
+*::after {
+    border-radius: 0px !important;
+}
+
+/* Browser interface elements */
+:root {
+    --zen-border-radius: 0px !important;
+    --zen-element-radius: 0px !important;
+    --zen-toolbar-element-radius: 0px !important;
+    --zen-tab-border-radius: 0px !important;
+    --zen-urlbar-border-radius: 0px !important;
+    --zen-sidebar-border-radius: 0px !important;
+}
+
+/* Tabs */
+.tabbrowser-tab,
+.tab-background,
+.tab-content,
+.tab-stack {
+    border-radius: 0px !important;
+}
+
+/* URL bar and search */
+#urlbar,
+#urlbar-background,
+#urlbar-input-container,
+#searchbar {
+    border-radius: 0px !important;
+}
+
+/* Toolbar buttons */
+toolbarbutton,
+.toolbarbutton-1,
+.unified-extensions-item,
+#PanelUI-button {
+    border-radius: 0px !important;
+}
+
+/* Panels, popups and menus */
+menupopup,
+panel,
+panelview,
+.panel-arrowcontent,
+#appMenu-popup,
+#customizationui-widget-panel {
+    border-radius: 0px !important;
+}
+
+/* Sidebar */
+#sidebar-box,
+#sidebar,
+.sidebar-placesTree {
+    border-radius: 0px !important;
+}
+
+/* Context menus */
+menupopup > menu,
+menupopup > menuitem {
+    border-radius: 0px !important;
+}
+
+/* Website content (optional) */
+html,
+body {
+    border-radius: 0px !important;
+}
