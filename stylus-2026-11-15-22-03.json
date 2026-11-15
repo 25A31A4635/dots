@@ -1,0 +1,182 @@
+[
+  {
+    "settings": {
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeIframes.sites": "",
+      "exposeIframes.sitesOnly": false,
+      "exposeStyleName": false,
+      "keepAlive": 0,
+      "keepAliveIdle": false,
+      "newStyleAsUsercss": false,
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "patchCsp": false,
+      "patchCsp.sites": "",
+      "patchCsp.sitesOnly": false,
+      "show-badge": true,
+      "styleViaASS": false,
+      "styleViaASS.sites": "",
+      "styleViaASS.sitesOnly": false,
+      "styleViaXhr": false,
+      "styleViaXhr.sites": "",
+      "styleViaXhr.sitesOnly": false,
+      "urlInstaller": true,
+      "windowPosition": {},
+      "compactWidth": 850,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "w",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": false,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.links.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.options.style.expanded": true,
+      "editor.general.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "default",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true,
+        "space_around_combinator": true,
+        "space_around_cmp": false
+      },
+      "editor.beautify.hotkey": "",
+      "editor.toggle.hotkey": "Alt-Enter",
+      "editor.toggle.save": false,
+      "editor.linter": "csslint",
+      "editor.linter.on": true,
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.livePreview.delay": 0.2,
+      "editor.targetsFirst": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": 0,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "hotkey.toggleTab": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popup.search.globals": false,
+      "popup.sidePanel": false,
+      "popup.sidePanel.config": -1,
+      "popup.sidePanel.editor": false,
+      "popup.sidePanel.finder": false,
+      "popup.sidePanel.manager": false,
+      "popup.sidePanel.options": true,
+      "popup.toggler.expanded": false,
+      "popupWidth": 246,
+      "popupWidthMax": 280,
+      "updateInterval": 24,
+      "updateOnlyEnabled": false
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1794066518848,
+    "name": "bitchord squared",
+    "sections": [
+      {
+        "code": "* { border-radius: 0px !important; }",
+        "domains": [
+          "https://bitchord-8bw.pages.dev/"
+        ]
+      }
+    ],
+    "_rev": 1794066698145,
+    "updateDate": 1794066698145,
+    "_id": "44704c27-5f89-45d4-83d3-464d30117d7e",
+    "id": 1
+  },
+  {
+    "enabled": true,
+    "installDate": 1794066769262,
+    "name": "squared",
+    "sections": [
+      {
+        "code": "\n/* ==========================================\n   TOTAL SQUARE MODE — STYLUS\n   Force sharp corners across every website\n   ========================================== */\n\n/* 1. NUKE ALL BORDER RADIUS */\n*,\n*::before,\n*::after,\n*::first-letter,\n*::first-line {\n    border-radius: 0 !important;\n}\n\n/* 2. OVERRIDE RADIUS VARIABLES */\n:root,\n:host {\n    --radius: 0px !important;\n    --radius-xs: 0px !important;\n    --radius-sm: 0px !important;\n    --radius-md: 0px !important;\n    --radius-lg: 0px !important;\n    --radius-xl: 0px !important;\n    --radius-2xl: 0px !important;\n    --radius-3xl: 0px !important;\n    --rounded: 0px !important;\n    --rounded-sm: 0px !important;\n    --rounded-md: 0px !important;\n    --rounded-lg: 0px !important;\n    --rounded-xl: 0px !important;\n    --rounded-full: 0px !important;\n    --chakra-radii-full: 0px !important;\n    --chakra-radii-md: 0px !important;\n    --chakra-radii-lg: 0px !important;\n    --bs-border-radius: 0px !important;\n    --bs-border-radius-sm: 0px !important;\n    --bs-border-radius-lg: 0px !important;\n    --bs-border-radius-xl: 0px !important;\n    --bs-border-radius-xxl: 0px !important;\n    --bs-border-radius-pill: 0px !important;\n}\n\n/* 3. BUTTONS — NO PILLS */\nbutton,\n[role=\"button\"],\ninput[type=\"button\"],\ninput[type=\"submit\"],\ninput[type=\"reset\"],\n.btn,\n.button,\na.button {\n    border-radius: 0 !important;\n}\n\n/* 4. INPUTS, SEARCH BARS & TEXT AREAS */\ninput,\ntextarea,\nselect,\noption,\n[role=\"textbox\"],\n[role=\"combobox\"],\n[contenteditable=\"true\"] {\n    border-radius: 0 !important;\n}\n\n/* 5. CARDS, PANELS & CONTAINERS */\n.card,\n[class*=\"card\"],\n[class*=\"panel\"],\n[class*=\"modal\"],\n[class*=\"dialog\"],\n[class*=\"popover\"],\n[class*=\"tooltip\"],\n[class*=\"dropdown\"],\n[class*=\"sheet\"],\n[class*=\"drawer\"] {\n    border-radius: 0 !important;\n}\n\n/* 6. IMAGES, AVATARS & THUMBNAILS */\nimg,\npicture,\nvideo,\ncanvas,\niframe,\n.avatar,\n[class*=\"avatar\"],\n[class*=\"thumbnail\"],\n[class*=\"image-wrapper\"],\n[class*=\"img-wrapper\"] {\n    border-radius: 0 !important;\n}\n\n/* 7. NAVIGATION & MENUS */\nnav,\nheader,\n[role=\"navigation\"],\n[role=\"menu\"],\n[role=\"menuitem\"],\n[role=\"tab\"],\n[role=\"tablist\"] {\n    border-radius: 0 !important;\n}\n\n/* 8. TAGS, CHIPS & BADGES */\n.badge,\n.tag,\n.chip,\n.pill,\n[class*=\"badge\"],\n[class*=\"chip\"],\n[class*=\"tag\"] {\n    border-radius: 0 !important;\n}\n\n/* 9. PROGRESS BARS & SLIDERS */\nprogress,\nmeter,\ninput[type=\"range\"],\n[role=\"progressbar\"],\n[role=\"slider\"] {\n    border-radius: 0 !important;\n}\n\n/* 10. REMOVE CLIPPING USED TO CREATE ROUNDED SHAPES */\n[style*=\"border-radius\"],\n[style*=\"borderRadius\"] {\n    border-radius: 0 !important;\n}\n\n/* 11. FORCE SHARP OUTLINES */\n*:focus,\n*:focus-visible {\n    border-radius: 0 !important;\n}\n\n/* 12. STOP TRANSFORMS FROM HIDING SIMPLE CORNERS */\nbutton,\ninput,\nselect,\ntextarea {\n    -webkit-appearance: auto;\n    appearance: auto;\n    border-radius: 0 !important;\n}\n"
+      }
+    ],
+    "_rev": 1794066769262,
+    "updateDate": 1794066769262,
+    "_id": "a22f23c4-5239-4265-8989-4c49c4182e01",
+    "id": 2,
+    "inclusions": [
+      "https://gemini.google.com/*"
+    ]
+  },
+  {
+    "enabled": true,
+    "installDate": 1794066802633,
+    "name": "iosevka",
+    "sections": [
+      {
+        "code": "*, *::before, *::after {\n    font-family: \"Iosevka Nerd Font\", monospace !important;\n}"
+      }
+    ],
+    "_rev": 1794066802633,
+    "updateDate": 1794066802633,
+    "_id": "a68ac86b-cb2a-4166-be5a-4d99d36374e5",
+    "id": 3,
+    "exclusions": [
+      "https://gemini.google.com/*"
+    ]
+  }
+]
